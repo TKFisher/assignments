@@ -11,7 +11,6 @@ public class ForLoops_Assignment_ReverseString {
 
         for (int i = 0; i < myString.length();  i=i+1) {
             System.out.println("char: " + myString.charAt(i));
-
         }
 
        // System.out.println(count);
