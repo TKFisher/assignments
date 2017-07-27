@@ -45,9 +45,9 @@ public class App {
 
     //----------------------STARTING POINT OF PROGRAM. IGNORE BELOW --------------------//
     public static void main(String args[]) {
-        //TestUtils_11.runTests();
+        TestUtils_11.runTests();
 
-        repeatChar("the");
+        //repeatChar("the");
     }
 
 

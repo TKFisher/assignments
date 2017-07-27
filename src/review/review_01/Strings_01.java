@@ -8,7 +8,6 @@ public class Strings_01 {
         String a = "Hello";
         System.out.println(a);
 
-        // prints the lenght of the characters
         System.out.println(a.length());
 
         String str = "ABCDEFG";
