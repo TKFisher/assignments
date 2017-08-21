@@ -21,7 +21,7 @@ public class App {
 
 
     // My attempt but got stuck and need to review the solution.
-    // TODO: complete this with another solution 
+    // TODO: complete this with another solution
     public static String starKill(String str) {
 
         String searchString = "*";
