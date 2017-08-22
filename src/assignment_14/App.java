@@ -19,6 +19,7 @@ public class App {
      * matchingChar({"aa", "bb", "cc"}, {"", "", "ccc"}) <b>---></b> 1 <br>
      */
 
+    // Tracy's solution
     public static int matchingChar(String[] a, String[] b) {
 
         int count = 0;
@@ -36,6 +37,23 @@ public class App {
 
         return count;
     }
+
+    // Teacher's solution
+/*    public static int matchingChar(String[] a, String[] b) {
+
+        int count = 0;
+
+        for (int i = 0; i < a.length; i = i + 1) {
+            String str1 = a[i];
+            String str2 = b[i];
+
+            if (!str1.equals("") && !str2.equals("")) {
+                if (str1.charAt(0) == str2.charAt(0))
+                    count++;
+            }
+        }
+        return count;
+    }*/
 
 
     //----------------------STARTING POINT OF PROGRAM. IGNORE BELOW --------------------//
