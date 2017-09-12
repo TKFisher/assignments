@@ -8,20 +8,13 @@ public class Zoo {
         Animal hummingbird = new Animal("hummingbird", "bird", "female", 1, 2, "herbivorous");
 
         lion.speak();
+        lion.eat();
 
-        System.out.println("\n");
         hummingbird.speak();
+        hummingbird.sleep();
 
-        System.out.println("\n");
-
-        Fish shark = new Fish("shark", "other fish", "ocean");
-        shark.speak();
-
-        System.out.println("\n");
-
-        Bird parakeet = new Bird("parakeet", "seeds", "nest");
-        parakeet.speak();
-
+        Bird chicken = new Bird( "mamal",  "", "", 2, 5, "herbivoire");
+        chicken.move();
     }
 
 }

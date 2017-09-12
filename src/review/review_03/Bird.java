@@ -1,23 +1,13 @@
 package review.review_03;
 
-public class Bird {
+public class Bird extends Animal {
 
-
-    String birdType;
-    int birdWeight;
-    int birdAge;
-    String birdEatingStyle;
-    String birdHabitat;
-
-
-    public Bird(String birdType, String birdEatingStyle, String birdHabitat) {
-        this.birdType = birdType;
-        this.birdEatingStyle = birdEatingStyle;
-        this.birdHabitat = birdHabitat;
+    public Bird(String animalType, String animalClassification, String gender, int weight, int age, String eatingStyle) {
+        super(animalType, animalClassification, gender, weight, age, eatingStyle);
     }
 
     public void move() {
-
+        System.out.println("I move with my wings.");
     }
 
     public void eat() {
@@ -26,15 +16,6 @@ public class Bird {
 
     public void sleep() {
 
-    }
-
-    public void speak() {
-
-        System.out.println("I am a " + birdType + ".");
-        System.out.println("I weigh " + birdWeight + " lb(s)");
-        System.out.println("I am " + birdAge + " years old.");
-        System.out.println("I love to eat " + birdEatingStyle + ".");
-        System.out.println("I live in a " + birdHabitat + ".");
     }
 
 

@@ -28,10 +28,12 @@ public class Animal {
     }
 
     public void eat() {
+        System.out.println("Animals eat either meat or plants.");
 
     }
 
     public void sleep() {
+        System.out.println("Animals sleep during the day a lot. ");
 
     }
 
