@@ -7,7 +7,7 @@ public class Bird extends Animal {
     }
 
     public void move() {
-        System.out.println("I move with my wings.");
+        System.out.println("Birds use their wings to move. ");
     }
 
     public void eat() {
