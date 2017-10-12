@@ -13,6 +13,6 @@ public class AppCounter {
         counter1.getCurrentValue();
         }
         System.out.println(counter1);
-        
+
     }
 }
